@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Ayos | jnp-multiplayer-webgl</title>
+    <title>Ayos | Jnp-Multip</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
@@ -24,17 +24,17 @@
         const queryString = window.location.search;
         const urlParams = new URLSearchParams(queryString);
         var buildUrl = "Build";
-        var loaderUrl = buildUrl + "/jnp build.loader.js";
+        var loaderUrl = buildUrl + "/prod-multip-jnp.loader.js";
         var config = {
-          dataUrl: buildUrl + "/jnp build.data",
-          frameworkUrl: buildUrl + "/jnp build.framework.js",
-          codeUrl: buildUrl + "/jnp build.wasm",
+          dataUrl: buildUrl + "/prod-multip-jnp.data",
+          frameworkUrl: buildUrl + "/prod-multip-jnp.framework.js",
+          codeUrl: buildUrl + "/prod-multip-jnp.wasm",
           memoryUrl: buildUrl + "/",
           symbolsUrl: buildUrl + "/",
           streamingAssetsUrl: "StreamingAssets",
           companyName:  "Multisys Techologies Corporation",
-          productName: "jnp-multiplayer-webgl",
-          productVersion: "1",
+          productName: "Jnp-Multip",
+          productVersion: "1.1",
         };
 
         var container = document.querySelector("#unity-container");
